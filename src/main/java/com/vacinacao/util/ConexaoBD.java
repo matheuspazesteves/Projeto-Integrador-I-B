@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class ConexaoBD {
 
     private static final String URL = "jdbc:mysql://localhost:3306/db_vacinacao?useTimezone=true&serverTimezone=UTC&useSSL=false";
-    private static final String USUARIO = "root";
-    private static final String SENHA = "";
+    private static final String USUARIO = "admin";
+    private static final String SENHA = "31994";
 
     private static Connection conexao = null;
 
